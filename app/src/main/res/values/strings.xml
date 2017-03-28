@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">1KE Seed</string>
+
+    <!-- Navigation View-->
+    <string name="user_name">Username</string>
+    <string name="user_mail">Username@mail.com</string>
+    <string name="settings">设置</string>
+</resources>
