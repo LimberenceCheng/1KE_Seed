@@ -1,8 +1,20 @@
 <resources>
     <string name="app_name">1KE Seed</string>
 
+    <!-- Common View -->
+    <string name="search">Search</string>
+
     <!-- Navigation View-->
     <string name="user_name">Username</string>
     <string name="user_mail">Username@mail.com</string>
-    <string name="settings">设置</string>
+    <string name="nav_path">生涯</string>
+    <string name="nav_favorite">收藏</string>
+    <string name="nav_bought">已购</string>
+    <string name="nav_settings">设置</string>
+    <string name="course_frontend">前端开发</string>
+    <string name="course_backend">后端开发</string>
+    <string name="course_mobiledev">移动开发</string>
+    <string name="course_data">数据处理</string>
+    <string name="course_marketing">市场营销</string>
+    <string name="course_uxui">UX/UI</string>
 </resources>

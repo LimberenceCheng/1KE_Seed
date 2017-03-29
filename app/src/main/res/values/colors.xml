@@ -3,5 +3,17 @@
     <color name="colorPrimary">#259B24</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="colorTab">#FFF</color>
+    <color name="colorUser">#FFFFFF</color>
+    <color name="colorTab">#FFFFFF</color>
+    <color name="colorCourseCardName">#FFFFFF</color>
+    <color name="colorCourseCardViewCount">#FFFFFF</color>
+    <color name="colorCourseCardFavoriteCount">#FFFFFF</color>
+    <color name="colorCourseCardTag">#FFFFFF</color>
+    <color name="colorCourseCardTeacherName">#555555</color>
+    <color name="colorCourseCardTeacherTag">#FFFFFF</color>
+    <color name="colorCourseCardTeacherTag_bg">#E51C23</color>
+    <color name="colorCourseTypeName">#FFFFFF</color>
+    <color name="colorCourseItemName">#101010</color>
+    <color name="colorCourseType_normal_btn_bg">#2BAF2B</color>
+    <color name="colorCourseType_selected_btn_bg">#056F00</color>
 </resources>

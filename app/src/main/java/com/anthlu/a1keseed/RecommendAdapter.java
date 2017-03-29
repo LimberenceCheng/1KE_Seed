@@ -46,7 +46,7 @@ public class RecommendAdapter extends RecyclerView.Adapter<RecommendAdapter.View
     }
 
     public RecommendAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.course_item, parent, false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.course_card_item, parent, false);
 
         ViewHolder vh = new ViewHolder(v);
         return vh;

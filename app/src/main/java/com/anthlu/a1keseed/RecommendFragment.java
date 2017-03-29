@@ -33,6 +33,8 @@ public class RecommendFragment extends Fragment {
     private void initCourses() {
         Course hello = new Course("Hello world", 10, "HTML", 30, 20, "Anthony", 26, "CTO");
         courseList.add(hello);
+        Course hello2=new Course("Hello world 2", 10, "HTML 2", 30, 20, "Anthony2", 26, "CTO2");
+        courseList.add(hello2);
     }
 
     @Override
