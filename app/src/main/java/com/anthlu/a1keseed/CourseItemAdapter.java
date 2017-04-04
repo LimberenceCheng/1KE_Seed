@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -18,11 +19,13 @@ public class CourseItemAdapter extends RecyclerView.Adapter<CourseItemAdapter.Vi
     private List<CourseItem> mCourseItem;
 
     static class ViewHolder extends RecyclerView.ViewHolder {
+        View courseItemView;
         ImageView courseItemImage;
         TextView courseItemName;
 
         public ViewHolder(View view) {
             super(view);
+            courseItemView = view;
             courseItemImage = (ImageView) view.findViewById(R.id.course_item_image);
             courseItemName = (TextView) view.findViewById(R.id.course_item_name);
         }
@@ -35,7 +38,15 @@ public class CourseItemAdapter extends RecyclerView.Adapter<CourseItemAdapter.Vi
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.course_item, parent, false);
-        ViewHolder holder = new ViewHolder(view);
+        final ViewHolder holder = new ViewHolder(view);
+        holder.courseItemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int position = holder.getAdapterPosition();
+                CourseItem courseItem = mCourseItem.get(position);
+                Toast.makeText(v.getContext(), "you clicked view" + courseItem.getCourseItemName(), Toast.LENGTH_SHORT).show();
+            }
+        });
         return holder;
     }
 
