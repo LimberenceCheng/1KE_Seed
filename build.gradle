@@ -17,7 +17,7 @@ allprojects {
         jcenter()
     }
 }
-
+compile 'com.microsoft.azure:azure-mobile-android:3.2.0'
 task clean(type: Delete) {
     delete rootProject.buildDir
 }

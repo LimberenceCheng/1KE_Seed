@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/1KESeed.iml" filepath="$PROJECT_DIR$/1KESeed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1KE_Seed.iml" filepath="$PROJECT_DIR$/1KE_Seed.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
