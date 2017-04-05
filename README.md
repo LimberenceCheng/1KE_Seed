@@ -3,19 +3,17 @@
 
 其中sharing文件夹为共享资源与资料。
 
+目前无法解决
 
+`Error:Module 'com.microsoft.azure:azure-mobile-android:3.2.0' depends on one or more Android Libraries but is a jar`
 
-## 当前分工及预期
+已经被卡住了很久。
 
-3/26：初步构建Android App，根据Material Design进行设计。
+同时，后端要使用node.js或者.net来做，不能用PHP或者用Python，这让我几乎无能为力。
 
-3/26：遇到问题：完成课程卡片的UI，不知道怎么解决CardView在TabLayout下的ViewPage中显示，使两个标签可以来回切换。（陆）
+可能这波只能水过去，做个离线版的试一试，然后我们再慢慢摸索。——没有别的法子了。
 
-3/27：明确分工，开始研究Android的网络交互部分。（包括如何调用API，并呈现在Android App上。）使用MongoDB，首先用Python将保存的Json格式进行一定的过滤，然后保存到MongoDB上，在Microsoft Azure上进行布置。
+同时，做到现在了，爬虫还没做。。。并没有得到一个比较理想的结果。。。
 
-预期：于4/5之前，完成初步的App的建立。
-
-4/3日，美工成果同步至App。
-
-4/1之前，完成网络API的调用与Azure功能实现。
+但是我得到一个比较清晰的方案，我的方案的结果，至少要用一个月才能把这个App做完（包括完整的美工、数据库（其实这个可以用一整天的时间来解决）、API调用、爬虫自动化等）——即使是最基本的框架上线。
 
